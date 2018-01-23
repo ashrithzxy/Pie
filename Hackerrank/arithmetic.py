@@ -1,5 +1,7 @@
-print("Enter a: "); a = int(input())
-print("Enter b"); b = int(input())
+print("Enter a: ")
+a = int(input())
+print("Enter b")
+b = int(input())
 sum=a+b
 diff=a-b
 prod=a*b
