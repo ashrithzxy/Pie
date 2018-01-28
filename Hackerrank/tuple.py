@@ -1,7 +1,2 @@
-lol = ()
-print("Enter number of tuple elements")
-n = int(input())
-print("Enter tuple elements")
-for i in range(0,n):
-    lol(i) = int(input())
-print("tuple contains: ", lol)
+n = input()
+print (hash(tuple([int(i) for i in input().split()])))
