@@ -12,11 +12,3 @@ for outer in range(n):
             data[x] = float(data[x])
     report.append(data)
 print("Nested List is: ", report)
-
-
-
-
-
-#        data.append(int(input()))
-#    report.append(data)
-#print(report)
