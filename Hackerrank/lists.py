@@ -1,3 +1,4 @@
+arr = []
 for i in range(int(input())):
     s = input().split()
     for i in range(1,len(s)):
@@ -23,3 +24,4 @@ for i in range(int(input())):
         arr.reverse()
     elif s[0] == "print":
         print (arr)
+print(arr)
