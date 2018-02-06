@@ -8,7 +8,6 @@ for outer in range(n):
         s = input()
         data.append(s)
         lens = len(data)
-    #print(lens)     #length of list "data"
         for x in range(1,lens):
             data[x] = float(data[x])
     report.append(data)
