@@ -6,7 +6,7 @@ def capslock(names):
             names[i] = string
     final = ' '.join(names)
     return final
-names = input().split()
+names = input().split(' ')
 capital = capslock(names)
 print(capital)
 
