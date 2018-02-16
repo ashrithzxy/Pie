@@ -1,6 +1,6 @@
 n = int(input())
 stamp = set()
-for i in range(n):
+for i in n:
     country = input()
     stamp.add(country)
 print(len(stamp))
