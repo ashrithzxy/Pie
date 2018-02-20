@@ -1,3 +1,6 @@
+'''
+Check whether a number is even or odd.
+'''
 a = int(input("Enter a: "))
 print("{} is even.".format(a)) if(a%2 == 0) else print("{} is odd.".format(a))
 #EXTRAS:
