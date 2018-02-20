@@ -1,5 +1,5 @@
 # Pie
 
-Python 
+Python
 
-Contains python exercises from hackerrank.
+Contains python exercises from HackerRank.com and Practicepython.org
