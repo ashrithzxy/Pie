@@ -1,3 +1,4 @@
+#You have to print the number of times that the substring occurs in the given string.
 def substring(str1, substr):
     count = 0
     for i in range(len(str1) - len(substr) + 1):

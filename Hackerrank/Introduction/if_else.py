@@ -1,10 +1,10 @@
-print("Enter a number: ")
+#IF ELSE conditions
 n = int(input())
 if (n%2==0 and 2<=n<=5):
-    print("Even25")
+    print("Not Weird")
 elif(n%2==0 and 6<=n<=20):
-    print("Even620")
+    print("Weird")
 elif (n%2==0 and n>20):
-    print("Even20up")
+    print("Not Weird")
 elif(n%2==1):
-    print("ODD")
+    print("Weird")

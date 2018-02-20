@@ -1,3 +1,4 @@
+#wrap the string into a paragraph of width W
 import textwrap
 def wrap(str, max_width):
     para = textwrap.fill(str, max_width)

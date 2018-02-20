@@ -1,3 +1,5 @@
+#Find Runner up score
+
 #print("Enter the number of elements you want in the list: ")
 #n = int(input())
 print("Enter the elements of the list: ")

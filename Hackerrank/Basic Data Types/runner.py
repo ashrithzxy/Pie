@@ -1,3 +1,4 @@
+#Find Runner up score
 n = int(input())
 rank = []
 for i in range(n):

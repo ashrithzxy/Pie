@@ -1,3 +1,4 @@
+#Write a program to check whether year is leap year or not.
 def is_leap(year):
     leap = False
      if year % 400 == 0:

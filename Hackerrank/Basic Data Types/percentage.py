@@ -1,3 +1,4 @@
+#percentage marks obtained by a student
 print("Enter the number of student records: ")
 n = int(input())
 report = []

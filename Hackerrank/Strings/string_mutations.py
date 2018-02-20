@@ -1,3 +1,4 @@
+#Read a given string, change the character at a given index and then print the modified string.
 def mutate_string(str, position, character):
     str = str[:int(position)] + character + str[int(position)+1:]
     print(str)

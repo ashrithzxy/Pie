@@ -1,3 +1,4 @@
+#Vowel consonant game
 def game_logic(s):
 #KEVIN: VOWELS {A,E,I,O,U}
     vowels = 'AEIOU'

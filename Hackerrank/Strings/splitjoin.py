@@ -1,3 +1,4 @@
+#split and join
 def split_and_join(line):
     line = "-".join(line)
     print(line)

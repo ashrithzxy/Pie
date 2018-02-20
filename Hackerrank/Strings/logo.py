@@ -1,3 +1,4 @@
+#Text alignment
 thickness = int(input())
 c = 'H'
 

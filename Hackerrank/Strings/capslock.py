@@ -1,3 +1,4 @@
+#Capitalize first and last name
 def capslock(names):
     for i in range(len(names)):
         string = names[i]

@@ -1,3 +1,4 @@
+#percentage marks obtained by a student
 n = int(input("Enter the number of records you want to enter: "))
 student_marks = {}
 for _ in range(n):
