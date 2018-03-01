@@ -1,12 +1,22 @@
 import random
-rand_number = random.randint(1,9)
-number_of_tries = 0
-user_input = input("Type 'EXIT' to quit. Enter your guess: ")
-while(user_input != "EXIT"):
-    user_input = int(user_input)
-    if user_input == rand_number:
-        print("You guessed it right!!")
+
+rd = random.randint(1,9)
+guess = 0
+c = 0
+while guess != rd and guess != "exit":
+    guess = input("Enter a guess between 1 to 9")
+
+    if guess == "exit":
+        break
+
+    guess = int(guess)
+    c += 1
+
+    if guess < rd:
+        print("go high")
+    elif guess > rd:
+        print("go low)
     else:
-        number_of_tries += 1
-        print("Please try again")
-        user_input = input("Type 'EXIT' to quit. Enter your guess: ")
+        print("Right!")
+        print("You took", c, "tries!")
+input("enter your guess")
