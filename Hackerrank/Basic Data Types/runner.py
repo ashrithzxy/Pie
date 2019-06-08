@@ -1,9 +1,6 @@
-#Find Runner up score
 n = int(input())
-rank = []
-for i in range(n):
-    s = int(input())
-    rank.append(s)
-rank.sort()
-print("sorted list is: ", rank)
-print("second largest element is: ", rank[n-2])
+arr = map(int, input().split())
+list_of_numbers = list(arr)
+sorted_distinct = list(set(list_of_numbers))
+sorted_distinct.sort()
+print(sorted_distinct[len(sorted_distinct)-2])
